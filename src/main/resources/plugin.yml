@@ -2,3 +2,13 @@ name: Drop Player Head
 version: '1.0'
 main: elevate.dropPlayerHead.DropPlayerHead
 api-version: '1.21'
+author: elevate
+commands:
+  drophead:
+    description: Get/set the drop chance for player heads.
+    usage: /drophead [get|set <0-100>|reload]
+    permission: drophead.set
+permissions:
+  drophead.set:
+    description: Allows changing the drop chance and reloading config
+    default: op
