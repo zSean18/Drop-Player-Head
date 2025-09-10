@@ -1,4 +1,4 @@
-name: Drop Player Head
+name: DropPlayerHead
 version: '1.0'
 main: elevate.dropPlayerHead.DropPlayerHead
 api-version: '1.21'
