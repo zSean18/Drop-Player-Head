@@ -64,12 +64,10 @@ public final class DropPlayerHead extends JavaPlugin implements Listener {
             meta.getPersistentDataContainer().set(fromPluginKey, PersistentDataType.BYTE, (byte)1);
             head.setItemMeta(meta);
         }
-
-        //Adds to natural drops?
         event.getDrops().add(head);
     }
 
-    //Command: /drophead
+    //COMMAND// -- /drophead
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!command.getName().equalsIgnoreCase("drophead")) return false;
