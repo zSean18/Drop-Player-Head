@@ -3,8 +3,10 @@
 A lightweight Minecraft Paper plugin that drops player-unique heads on death based on a customizable percentage.
 
 ## Installation
-- Ability to drop any player head based on an ID through an OP command
-- Fix command auto-complete (tab) suggestions
+- Download the .jar file from the newest release on git
+- Place in your /plugins folder
+- Restart server
+- A new folder will be created that contains a data file so you can change the drop percentage
 
 ## Future Updates & Fixes
 - Ability to drop any player head based on an ID through an OP command
