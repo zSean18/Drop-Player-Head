@@ -13,9 +13,9 @@ A lightweight Minecraft Paper plugin that drops player-unique heads on death bas
 - Fix command auto-complete (tab) suggestions
 
 ## Commands (OP Only)
-- `/drophead get` — places a leaderboard of the given type at the targeted bedrock block.  
-- `/drophead set <0-100>` — reloads `data.yml` and refreshes displays.  
-- `/drophead reload` — rebuilds text at the targeted bedrock.  
+- `/drophead get` — gets the head of a specific player  
+- `/drophead set <0-100>` — change the drop % 
+- `/drophead reload` — reloads the yml file if it was edited outside of the game commands
 
 ## License
 Apache-2.0
